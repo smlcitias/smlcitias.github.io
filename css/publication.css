@@ -28,6 +28,8 @@ hr {
   text-align: center;
   line-height: 48px;
   font-size: 2vw;
+  text-shadow: 2px 2px #ccc;
+  font-style: italic;
 }
 
 #underline {
@@ -43,6 +45,9 @@ hr {
 }
 .year-title hr {
   width: 50%;
+  height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+  border: 0;
 }
 
 /* paper */
