@@ -16,7 +16,7 @@ function getIndex(index, slides) {
 
   return index;
 }
-
+/*
 (function initSlide() {
   let peopleIndex = 1;
   let alumniIndex = 1;
@@ -49,3 +49,4 @@ function getIndex(index, slides) {
     showDivs(alumniIndex, alumniSlides);
   });
 }) ();
+*/
