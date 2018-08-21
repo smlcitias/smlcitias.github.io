@@ -1003,7 +1003,6 @@ let papers = [{
 function showPaper() {
   let shows = document.getElementsByClassName("showpaper");
   for (let i = 0; i < shows.length; i++) {
-    console.log(shows[i]);
     shows[i].style.display = "none";
   }
   shows[current].style.display = "block";
@@ -1026,23 +1025,23 @@ function addUnderlineListener() {
         return;
       }
 
-      let curPos = parseInt(underline.style.left);
+      let w = categories[0].getBoundingClientRect().width / 100;
+      let curPos = parseInt(underline.style.left) * w;
       let prev = current;
       let pos = 0;
       let distance = Math.abs(categories[i].getBoundingClientRect().right -
                               categories[current].getBoundingClientRect().right);
-      let time = 0.5; // animation finish in 1 second
+      let time = 0.5; // animation finish in 0.5 second
       let interval = 10; // interval in millisecond
-
       let underlineAnimation = setInterval(function() {
         if (pos > distance) {
-          prev < i ? underline.style.left = curPos + distance + 'px'
-                      : underline.style.left = curPos - distance + 'px';
+          prev < i ? underline.style.left = (curPos + distance) / w + '%'
+                   : underline.style.left = (curPos - distance) / w + '%';
           clearInterval(underlineAnimation);
         } else {
           pos += distance / (time / interval * 1000);
-          prev < i ? underline.style.left = curPos + pos + 'px'
-                   : underline.style.left = curPos - pos + 'px';
+          prev < i ? underline.style.left = (curPos + pos) / w + '%'
+                   : underline.style.left = (curPos - pos) / w + '%';
         }
       }, interval);
 
