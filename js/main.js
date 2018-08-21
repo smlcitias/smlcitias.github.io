@@ -40,5 +40,23 @@ function main() {
       }
     })
   }
+
+  // Add anchor listener of news.
+  let newsPeople = document.getElementsByClassName('to-people');
+  for (let i = 0; i < newsPeople.length; ++i) {
+    newsPeople[i].addEventListener('click', function() {
+      // Hide news section and show about section
+      sectionArr[0].style.display = 'none';
+      sectionArr[1].style.display = 'block';
+    })
+  }
+  let newsPublication = document.getElementsByClassName('to-publication');
+  for (let i = 0; i < newsPublication.length; ++i) {
+    newsPublication[i].addEventListener('click', function() {
+      // Hide news section and show publication section
+      sectionArr[0].style.display = 'none';
+      sectionArr[3].style.display = 'block';
+    })
+  }
 }
 main();

@@ -12,8 +12,9 @@ Search for keyword 'add people here' or 'add alumni here' in index.html and
 follow the existing structure.
 
 ### To add news:
-Search for keyword 'add news here' in index.html and follow the existing
-structure.
+Search for keyword 'add news here' in index.html. Please search icons here:
+https://material.io/tools/icons/?style=baseline. To navigate to _about_/_publication_
+section, please add _to-people_/_to-publication_ class of the anchor.
 
 ### To add research field
 
