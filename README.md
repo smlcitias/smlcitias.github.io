@@ -12,6 +12,7 @@ Search for keyword 'add people here' or 'add alumni here' in index.html and
 follow the existing structure.
 
 ### To add news:
+
 Search for keyword 'add news here' in index.html. Please search icons here:
 https://material.io/tools/icons/?style=baseline. To navigate to _about_/_publication_
 section, please add _to-people_/_to-publication_ class of the anchor.
@@ -66,6 +67,11 @@ under paper/book.
 Search for keyword 'add others here' in publication.html. And add a new material
 by following the existing structure. Also, put the img under img/other and the
 pdf under paper/other.
+
+### To add contact
+
+Search for keyword 'add contact here' in index.html and follow the existing
+structure. Search needed icons here: https://material.io/tools/icons/?style=baseline.
 
 ### Generating first page of pdf as img
 
