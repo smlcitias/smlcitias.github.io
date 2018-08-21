@@ -28,7 +28,8 @@ function main() {
   let sectionArr = [document.getElementById('news'),
                     document.getElementById('about'),
                     document.getElementById('research'),
-                    document.getElementById('publication')];
+                    document.getElementById('publication'),
+                    document.getElementById('contact')];
   for (let i = 0; i < navigators.length; ++i) {
     navigators[i].addEventListener('click', function() {
       for (let j = 0; j < sectionArr.length; ++j) {
@@ -46,16 +47,16 @@ function main() {
   for (let i = 0; i < newsPeople.length; ++i) {
     newsPeople[i].addEventListener('click', function() {
       // Hide news section and show about section
-      sectionArr[0].style.display = 'none';
-      sectionArr[1].style.display = 'block';
+      document.getElementById('news').style.display = 'none';
+      document.getElementById('about').style.display = 'block';
     })
   }
   let newsPublication = document.getElementsByClassName('to-publication');
   for (let i = 0; i < newsPublication.length; ++i) {
     newsPublication[i].addEventListener('click', function() {
       // Hide news section and show publication section
-      sectionArr[0].style.display = 'none';
-      sectionArr[3].style.display = 'block';
+      document.getElementById('news').style.display = 'none';
+      document.getElementById('publication').style.display = 'block';
     })
   }
 }
