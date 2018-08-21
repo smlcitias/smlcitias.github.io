@@ -1001,8 +1001,9 @@ let papers = [{
 ];
 
 function showPaper() {
-  let shows = document.getElementsByClassName("show");
+  let shows = document.getElementsByClassName("showpaper");
   for (let i = 0; i < shows.length; i++) {
+    console.log(shows[i]);
     shows[i].style.display = "none";
   }
   shows[current].style.display = "block";
@@ -1058,9 +1059,11 @@ function buildYear(container, years) {
     yearTitle.className = "row year-title";
     yearTitle.innerHTML = years[i].toString();
     container.appendChild(yearTitle);
+    /*
     if (i % 2 == 0) {
       yearTitle.style.background = "#f6f6f6";
     }
+    */
 
     let hr = document.createElement("hr");
     yearTitle.appendChild(hr);

@@ -190,7 +190,7 @@ header .intro-text {
   font-size: 26px;
 }
 .section-subtitle hr {
-  width: 30%;
+  width: 50%;
 }
 #about .about-text {
 	margin-left: 10px;
@@ -498,11 +498,6 @@ ol.type li a:hover {
 }
 .hover-bg:hover .hover-text {
 	opacity: 1;
-}
-#publication i.fa {
-	font-size: 20px;
-	padding: 5px;
-	color: #E87E04;
 }
 .more {
   margin-top: 30px;
