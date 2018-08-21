@@ -12,7 +12,6 @@ Search for keyword 'add people here' or 'add alumni here' in index.html and
 follow the existing structure.
 
 ### To add news:
-
 Search for keyword 'add news here' in index.html and follow the existing
 structure.
 

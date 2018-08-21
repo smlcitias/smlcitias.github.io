@@ -180,7 +180,7 @@ header .intro-text {
 /* About Section */
 #about {
 	padding: 100px 0;
-	background: #f6f6f6;
+  display: none;
 }
 #about .section-title {
   padding: 0;
@@ -336,6 +336,7 @@ header .intro-text {
 /* Research Section */
 #research {
 	padding: 100px 0;
+  display: none;
 }
 .research {
   padding-bottom: 80px;
@@ -381,7 +382,7 @@ header .intro-text {
 /* Publications Section */
 #publication {
 	padding: 100px 0;
-	background: #f6f6f6;
+  display: none;
 }
 .categories {
 	padding-bottom: 30px;
@@ -515,6 +516,7 @@ ol.type li a:hover {
 /* Contact Section */
 #contact {
 	padding: 100px 0;
+  display: none;
 }
 #contact .section-title {
   padding: 0;
