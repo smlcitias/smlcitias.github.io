@@ -164,14 +164,14 @@ hr {
 	font-weight: 600;
 	letter-spacing: 2px;
 	margin-bottom: 20px;
-	color: #333;
-  text-shadow: 2px 2px 2px #ddd;
+	color: #e5e5e5;
+  text-shadow: 2px 2px 2px #333;
 }
 .intro p {
 	font-size: 20px;
 	margin-bottom: 40px;
 	margin-top: 20px;
-  text-shadow: 1px 1px 1px #ddd;
+  text-shadow: 1px 1px 1px #333;
 }
 header .intro-text {
 	padding-top: 200px;
@@ -364,6 +364,13 @@ header .intro-text {
   font-size: 12pt;
   line-height: 1.5;
 }
+
+.reference-text {
+	margin-left: 10px;
+	text-align: center;
+  padding: 0 0 60px 0;
+}
+
 .align-left {
   margin-left: 10%;
 }
