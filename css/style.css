@@ -148,9 +148,9 @@ hr {
 	width: 100%;
 	padding: 0;
 	text-align: center;
-	color: #333;
+	color: #e5e5e5;
 	background: url(../img/intro-bg.jpg) no-repeat center top;
-	background-color: #e5e5e5;
+	background-color: #4b4b4b;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
