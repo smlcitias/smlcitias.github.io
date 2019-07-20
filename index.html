@@ -609,12 +609,23 @@
 
       <div class="row research">
         <div class="col s5 align-left padding-right">
-          <img class="research-img" src="img/research/M1.png"></img>
+          <img class="research-img" src="img/research/S1.png"></img>
         </div>
         <div class="col s6">
           <hr class="research-hr">
-          <span class="research-title">Multimodal speech signal processing</span>
-          <p class="research-desc">Communication can be verbal or nonverbal. Verbal communication includes speaking and listening. The speaker relays verbal information while the listener focuses on auditory signals and the visual cues for speech recognition. The visual signals may include articulatory movements, facial expressions, and co-speech gestures of the speaker, which constitutes the nonverbal part of the communication process. In various applied speech technologies, it has been shown that audio-visual integration can assist in human information exchange and the development of human-computer interfaces. We have conducted studies on the incorporation of audio and video information to facilitate improved speech signal processing performance. Currently, we have developed novel algorithms by fusing the audio and visual information for emotion recognition [17], oral presentation scoring [18], and speech enhancement [19].</p>
+          <span class="research-title">Speech Enhancement with Direct Evaluation Metric Optimization</span>
+          <p class="research-desc">During the training process for an SE model, an objective function is used to optimize the model parameters. In the existing literature, there is an inconsistency between the model optimization criterion and the evaluation criterion for enhanced speech. For example, in the measurement of intelligibility, most of the evaluation metrics are based on short-time objective intelligibility (STOI) measure, while a frame based mean square error (MSE) between the enhanced speech and clean reference is widely used in the process of optimizing the model. Due to this inconsistency, there is no guarantee that the trained model will facilitate optimal performance in different applications [13]. We therefore investigated several algorithms with the aim of directly optimizing model parameters based on evaluation metrics including STOI [13], perceptual evaluation of speech quality (PESQ) [14], and automatic speech recognition (ASR) [22]. Reinforcement learning and GAN-based methods have also been exploited to facilitate optimization given that some evaluation metrics are complex and not differentiable. Experimental results show that by using the same specific evaluation metric as the objective function, the SE model can be trained to yield superior performance compared to the MSE to achieve a desired outcome.</p>
+        </div>
+      </div>
+
+      <div class="row research">
+        <div class="col s6 align-left">
+          <hr class="research-hr">
+          <span class="research-title">Multimodal Pathological Voice Classification</span>
+          <p class="research-desc">We have conducted research on pathological voice classification based on medical records [23] and voice signals [24]. The results showed that voice disorders can be accurately identified using voice signals and medical records when advanced signal processing and machine learning methods are utilized. Based on the voice data, we organized a pathological Voice Detection Challenge in IEEE Big Data 2018 [25], which attracted 109 participating teams from 27 different countries. More recently, we investigated the combination of acoustic signals and medical records and derived a multimodal deep learning model. The proposed model consists of two stages: the first stage processes acoustic features and medical data individually and the second stage integrates the outputs from the first stage to perform classification. The proposed multimodal deep learning frameworks were evaluated using 589 samples collected from Far Eastern Memorial Hospital, consisting of three categories of vocal disease, i.e. glottic neoplasm, phonotraumatic lesions, and vocal paralysis. We obtained promising experimental results compared to systems that use only acoustic signals or medical records.</p>
+        </div>
+        <div class="col s5 padding-right">
+          <img class="research-img" src="img/research/M2.png"></img>
         </div>
       </div>
 
