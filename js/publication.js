@@ -13,6 +13,7 @@ const confAbbr = {
   COCOSDA: "International Committee for Co-ordination and Standardisation of Speech Databases (COCOSDA)",
   CVPR: "Computer Vision and Pattern Recognition (CVPR)",
   DCASE: "Detection and Classification of Acoustic Scenes and Events (DCASE)",
+  EMBC: "IEEE Engineering in Medicine and Biology Society (EMBC)",
   GLOBALSIP: "IEEE Global Conference on Signal and Information Processing (GlobalSIP)",
   ICASSP: "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)",
   ICCE: "IEEE International Conference on Consumer Electronics (ICCE)",
@@ -28,6 +29,7 @@ const confAbbr = {
   JASA: "The Journal of the Acoustical Society of America (JASA)",
   MLSP: "IEEE International Workshop on Machine Learning for Signal Processing (MLSP)",
   PNC: "Pacific Neighborhood Consortium (PNC) Annual Conference and Joint Meetings",
+  SiPS: "IEEE Workshop on Signal Processing Systems",
 }
 
 // array of journals, add paper of journal here!
@@ -933,29 +935,6 @@ let papers = [{
     "author": "Li, Jinyu and Tsao, Yu and Lee, Chin-Hui",
     "conference": confAbbr.ICASSP,
   }, {
-    "imgPath": "img/conference/lee2018speech.png",
-    "filePath": "paper/conference/lee2018speech.pdf",
-    "year": 2018,
-    "name": "Speech Dereverberation Based on Integrated Deep and Ensemble Learning Algorithm.",
-    "author": "W.-J. Lee, S.-S. Wang, F. Chen, X. Lu, S.-Y. Chien, and Y. Tsao",
-    "conference": confAbbr.ICASSP,
-    "demo": ["Test Audio 1", "audio/test.wav", "Test Audio 2", "audio/test2.wav"],
-  }, {
-    "imgPath": "img/conference/sun2018novel.png",
-    "filePath": "paper/conference/sun2018novel.pdf",
-    "year": 2018,
-    "name": "A Novel LSTM-based Speech Preprocessor For Speaker Diarization in Realistic Mismatch Conditions.",
-    "author": "L. Sun, J. Du, T. Gao, Y.-D. Lu, Y. Tsao, C.-H. Lee, N. Ryant",
-    "conference": confAbbr.ICASSP,
-    "demo": ["Source", "audio/test3.wav"],
-  }, {
-    "imgPath": "img/conference/ryant2017enhancement.png",
-    "filePath": "paper/conference/ryant2017enhancement.pdf",
-    "year": 2018,
-    "name": "Enhancement and Analysis of Conversational Speech: JSALT 2017.",
-    "author": "N. Ryant et al",
-    "conference": confAbbr.ICASSP,
-  }, {
     "imgPath": "img/conference/fu2017raw.png",
     "filePath": "paper/conference/fu2017raw.pdf",
     "year": 2017,
@@ -997,6 +976,71 @@ let papers = [{
     "name": "Deblending of Simultaneous-source Seismic Data via Periodicity-coded Nonnegative Matrix Factorization.",
     "author": "T.-H. Lin and Y. Tsao",
     "conference": "IEEE Dataport",
+  }, {
+    "imgPath": "img/conference/lai2018improving.png",
+    "filePath": "paper/conference/lai2018improving.pdf",
+    "year": 2018,
+    "name": "Improving the Performance of Hearing Aids in Noisy Environments based on Deep Learning Technology.",
+    "author": "	Y.-H. Lai, W.-Z. Zheng, S.-T. Tang, S.-H. Fang, W.-H. Liao, and Y. Tsao",
+    "conference": confAbbr.EMBC,
+  }, , {
+    "imgPath": "img/conference/lee2018speech.png",
+    "filePath": "paper/conference/lee2018speech.pdf",
+    "year": 2018,
+    "name": "Speech Dereverberation Based on Integrated Deep and Ensemble Learning Algorithm.",
+    "author": "W.-J. Lee, S.-S. Wang, F. Chen, X. Lu, S.-Y. Chien, and Y. Tsao",
+    "conference": confAbbr.ICASSP,
+    "demo": ["Test Audio 1", "audio/test.wav", "Test Audio 2", "audio/test2.wav"],
+  }, {
+    "imgPath": "img/conference/sun2018novel.png",
+    "filePath": "paper/conference/sun2018novel.pdf",
+    "year": 2018,
+    "name": "A Novel LSTM-based Speech Preprocessor For Speaker Diarization in Realistic Mismatch Conditions.",
+    "author": "L. Sun, J. Du, T. Gao, Y.-D. Lu, Y. Tsao, C.-H. Lee, N. Ryant",
+    "conference": confAbbr.ICASSP,
+    "demo": ["Source", "audio/test3.wav"],
+  }, {
+    "imgPath": "img/conference/ryant2017enhancement.png",
+    "filePath": "paper/conference/ryant2017enhancement.pdf",
+    "year": 2018,
+    "name": "Enhancement and Analysis of Conversational Speech: JSALT 2017.",
+    "author": "N. Ryant et al",
+    "conference": confAbbr.ICASSP,
+  }, {
+    "imgPath": "img/conference/lu2018temporal.png",
+    "filePath": "paper/conference/lu2018temporal.pdf",
+    "year": 2018,
+    "name": "Temporal Attentive Pooling for Acoustic Event Detection.",
+    "author": "X. Lu, P. Shen, S. Li, Y. Tsao, H. Kawai",
+    "conference": confAbbr.INTERSPEECH,
+  }, {
+    "imgPath": "img/conference/peng2018exemplar.png",
+    "filePath": "paper/conference/peng2018exemplar.pdf",
+    "year": 2018,
+    "name": "Exemplar-Based Spectral Detail Compensation for Voice Conversion.",
+    "author": "Y.-H. Peng, H.-T. Hwang, Y.-C. Wu, Y. Tsao, H.-M. Wang",
+    "conference": confAbbr.INTERSPEECH,
+  }, {
+    "imgPath": "img/conference/yu2018architecture.png",
+    "filePath": "paper/conference/yu2018architecture.pdf",
+    "year": 2018,
+    "name": "Architecture Design of Convolutional Neural Networks for Face Detection on an FPGA Platform.",
+    "author": "B.-S. Yu, Y. Tsao, S.-W. Yang, Y.-K. Chen, and S.Y. Chien",
+    "conference": confAbbr.SiPS,
+  }, {
+    "imgPath": "img/conference/fu2018quality.png",
+    "filePath": "paper/conference/fu2018quality.pdf",
+    "year": 2018,
+    "name": "Quality-Net: An End-to-End Non-intrusive Speech Quality Assessment Model based on BLSTM.",
+    "author": "S.-W. Fu, Y. Tsao, H.-T. Hwang, H.-M. Wang",
+    "conference": confAbbr.INTERSPEECH,
+  }, {
+    "imgPath": "img/conference/lee2018speech2.png",
+    "filePath": "paper/conference/lee2018speech2.pdf",
+    "year": 2018,
+    "name": "Speech Enhancement based on Reducing the Detail Portion of Speech Spectrograms in Modulation Domain via Discrete Wavelet Transform.",
+    "author": "S.-k. Lee, S.-S. Wang, Y. Tsao, J.-w. Hung",
+    "conference": confAbbr.ISCSLP,
   }
 ];
 
