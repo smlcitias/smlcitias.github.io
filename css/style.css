@@ -177,12 +177,12 @@ header .intro-text {
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
-/* About Section */
-#about {
+/* lab Section */
+#lab {
 	padding: 100px 0;
   display: none;
 }
-#about .section-subtitle {
+#lab .section-subtitle {
   padding: 40px 0 10px 0;
 }
 .section-subtitle h2 {
@@ -192,19 +192,20 @@ header .intro-text {
 .section-subtitle hr {
   width: 50%;
 }
-#about .about-text {
+#lab .lab-text {
 	margin-left: 10px;
-	text-align: center;
+	text-align: justify;
+    text-justify:inter-ideograph;
   padding: 0 0 60px 0;
 }
-#about img {
+#lab img {
 	border-radius: 50%;
 	width: 10vw;
 	height: 10vw;
 	display: inline-block;
   margin: 0 0 15px 0;
 }
-#about p {
+#lab p {
 	margin-top: 40px;
 	margin-bottom: 30px;
 	line-height: 22px;
@@ -264,7 +265,7 @@ header .intro-text {
   .people-col {
     font-size: 1.5vw;
   }
-  #about img {
+  #lab img {
     width: 15vw;
     height: 15vw;
   }
@@ -623,7 +624,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #000;
 }
 @media screen and (max-width: 700px) {
-  #about, #news, #research, #publication, #contact {
+  #lab, #news, #research, #publication, #contact {
     padding: 50px 0;
   }
 }

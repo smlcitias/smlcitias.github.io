@@ -26,7 +26,7 @@ function main() {
   // Add navigator listener to jump to different sections.
   let navigators = document.getElementsByClassName('change-sect');
   let sectionArr = [document.getElementById('news'),
-                    document.getElementById('about'),
+                    document.getElementById('lab'),
                     document.getElementById('research'),
                     document.getElementById('publication'),
                     document.getElementById('contact')];
@@ -48,7 +48,7 @@ function main() {
     newsPeople[i].addEventListener('click', function() {
       // Hide news section and show about section
       document.getElementById('news').style.display = 'none';
-      document.getElementById('about').style.display = 'block';
+      document.getElementById('lab').style.display = 'block';
     })
   }
   let newsPublication = document.getElementsByClassName('to-publication');
