@@ -24,7 +24,22 @@
     
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script language=javascript>
+			function toopen(){
+				if(document.getElementById("password").value=="Bioasp"){
+					document.location="Resources.html";
+					   return true;
+					}else{
+					alert("密碼錯誤，請再輸入一次！")
+					return false;
+					}
+				}
+			</script>
+
+
+
   </head>
   <body>
     
@@ -36,14 +51,14 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	        	<li class="nav-item"><a href="index.html" class="nav-link">News</a></li>
+	        	<li class="nav-item "><a href="index.html" class="nav-link">News</a></li>
 				<li class="nav-item "><a href="Lab.html" class="nav-link">Lab</a></li>
 	        	<li class="nav-item"><a href="Research.html" class="nav-link">Research</a></li>
-	        	<li class="nav-item"><a href="p-conference.html" class="nav-link">Pulications</a></li>
-				<li class="nav-item"><a href="login.html" class="nav-link">Resources</a></li>
+	        	<li class="nav-item "><a href="p-conference.html" class="nav-link">Pulications</a></li>
+				<li class="nav-item active"><a href="login.html" class="nav-link">Resources</a></li>
 				<li class="nav-item"><a href="Collaboration.html" class="nav-link">Collaboration</a></li>
 				<li class="nav-item"><a href="Honors.html" class="nav-link">Honors</a></li>
-				<li class="nav-item active"><a href="Activities.html" class="nav-link">Activities</a></li>
+				<li class="nav-item"><a href="Activities.html" class="nav-link">Activities</a></li>
 	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
@@ -51,96 +66,42 @@
 	  </nav>
     <!-- END nav -->
 
-    <section class="hero-wrap hero-wrap-2 d-flex" style="background-image: url(images/1.jpg);">
-    	<div class="overlay"></div>
-    	<div class="container">
-    		<div class="row d-flex align-items-center">
-    			<div class="col-md-7 col-sm-12 ftco-animate text-bread d-flex align-items-center">
-    				<div class="text">
-				  <h1 class="mb-3 mt-5 bread">Activities</h1>
-            </div>
-          </div>
-    		</div>
-    	</div>
-    </section>
 
-    <section class="ftco-section ftco-project" id="projects-section">
-    	<div class="container-fluid px-4">
-    		<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-lg-6 heading-section text-center ftco-animate">
-            <h2 class="mb-4">Our Photos</h2>
+	<section class="hero-wrap hero-wrap-2 d-flex" style="background-image: url(images/1.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row d-flex align-items-center">
+				<div class="col-md-7 col-sm-12 ftco-animate text-bread d-flex align-items-center">
+					<div class="text">
+				  <h1 class="mb-3 mt-5 bread">Resources</h1>
+			</div>
+		  </div>
+			</div>
+		</div>
+	</section>
 
-          </div>
-        </div>
-    		<div class="row">
-    			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-4.jpg);">
-    					<div class="overlay"></div>
-    					<a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-  				</div>
-  				<div class="col-md-8">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-5.jpg);">
-    					<div class="overlay"></div>
-    					<a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-  				</div>
+	<section class="ftco-section bg-light">
+			<div class="container">
+					<div class="row justify-content-center ">
+							<div class="col-md-7 heading-section ftco-animate text-center">
+							  <h2 >為維護資源的版權，請輸入密碼，以繼續檢視頁面</h2>
+							  <br/>
+							  <br/>
+							  <br/>
+							  <form method="get" action="Resources.html" name="myform" >
+							
+					<p>請輸入密碼：<input type="password" id="password" name="password"   value="" /></p>
+					<input type="image" src="images/result.png " onclick="return toopen();">            
+						 </form>			
+					 </div>	
+			 </div>
+			</div>
+        </section>	
 
-    			<div class="col-md-8">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-1.jpg);">
-    					<div class="overlay"></div>
-    					<a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
 
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-6.jpg);">
-    					<div class="overlay"></div>
-    					<a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="row">
-    					<div class="col-md-12">
-		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-2.jpg);">
-		    					<div class="overlay"></div>
-		    					<a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
-			    				<div class="text text-center p-4">
-			    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-			    					<span>Web Design</span>
-			    				</div>
-		    				</div>
-	    				</div>
-	    				<div class="col-md-12">
-		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-3.jpg);">
-		    					<div class="overlay"></div>
-		    					<a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
-			    				<div class="text text-center p-4">
-			    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-			    					<span>Web Design</span>
-			    				</div>
-		    				</div>
-	    				</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </section>
-    <footer class="ftco-footer ftco-bg-dark ftco-section">
+
+  <!-- 修改 footer -->
+	<footer class="ftco-footer ftco-bg-dark ftco-section">
 		<div class="container" >
 		  <div class="row mb-5 d-flex">
 			
@@ -183,7 +144,10 @@
 		  </div>
 		  <div class="row">
 			<div class="col-md-12 text-center">
-				<p>Copyright &copy; Bio-ASP Lab 2019</p>
+			 <p>Copyright &copy; Bio-ASP Lab 2019/
+			  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	<script>document.write(new Date().getFullYear());</script> This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 	<div align='center'><a href='https://www.hit-counts.com/'><img src='http://www.hit-counts.com/counter.php?t=MTQ0MTQyMA==' border='0' alt='logo design'></a><BR><a href='https://www.glowgraphics.co.uk/'>logo design</a></div>
 			</div>
 		  </div>
