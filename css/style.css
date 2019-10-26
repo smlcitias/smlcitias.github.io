@@ -490,8 +490,8 @@ pre {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px; }
+  margin-right: 10px;
+  margin-left: 20px; }
 
 .no-gutters {
   margin-right: 0;
@@ -8895,3 +8895,40 @@ section.resume-section {
    #login-2{
       float:left;
       }
+
+     /* Galley Area css
+============================================================================================ */
+.home_blog_inner {
+  margin-bottom: -50px; }
+
+.h_blog_item {
+  margin-bottom: 50px; }
+  .h_blog_item .col-lg-6 {
+    vertical-align: middle;
+    align-self: center; }
+  .h_blog_item .h_blog_img {
+    border-radius: 10px; }
+  .h_blog_item .h_blog_text {
+    padding-top: 60px;
+    padding-bottom: 60px; }
+    .h_blog_item .h_blog_text .h_blog_text_inner {
+      padding: 75px 90px;
+      border-radius: 10px; }
+      .h_blog_item .h_blog_text .h_blog_text_inner.left {
+        margin-left: -67px;
+        position: relative;
+        z-index: 2; }
+      .h_blog_item .h_blog_text .h_blog_text_inner.right {
+        margin-right: -67px;
+        position: relative;
+        z-index: 2; }
+      .h_blog_item .h_blog_text .h_blog_text_inner h4 {
+        color: #222222;
+        font-size: 42px;
+        margin-bottom: 15px; }
+      .h_blog_item .h_blog_text .h_blog_text_inner p {
+        margin-bottom: 30px;
+        font-size: 18px; }
+
+/* End Gallery Area css
+============================================================================================ */ 
