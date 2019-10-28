@@ -8907,10 +8907,10 @@ section.resume-section {
     vertical-align: middle;
     align-self: center; }
   .h_blog_item .h_blog_img {
-    border-radius: 10px; }
+    border-radius: 10px;}
   .h_blog_item .h_blog_text {
     padding-top: 60px;
-    padding-bottom: 60px; }
+    padding-bottom: 60px;}
     .h_blog_item .h_blog_text .h_blog_text_inner {
       padding: 75px 90px;
       border-radius: 10px; }
@@ -8923,12 +8923,15 @@ section.resume-section {
         position: relative;
         z-index: 2; }
       .h_blog_item .h_blog_text .h_blog_text_inner h4 {
-        color: #222222;
-        font-size: 42px;
-        margin-bottom: 15px; }
+        color: #000000;
+        font-size: 36px;
+        margin-bottom: 15px; 
+        font-family:DFKai-sb;}
       .h_blog_item .h_blog_text .h_blog_text_inner p {
         margin-bottom: 30px;
-        font-size: 18px; }
+        font-size: 18px;
+        color: #0000FF;
+        font-family:DFKai-sb;}
 
 /* End Gallery Area css
 ============================================================================================ */ 
