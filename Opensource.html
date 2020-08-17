@@ -25,20 +25,9 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
-
-	<script language=javascript>
-			function toopen(){
-				if(document.getElementById("password").value=="Bioasp"){
-					document.location="Resources.html";
-					   return true;
-					}else{
-					alert("密碼錯誤，請再輸入一次！")
-					return false;
-					}
-				}
-			</script>
-
-
+	
+	<!--載入jquery函式庫-->
+	<script type='text/javascript' src='https://code.jquery.com/jquery-1.11.3.min.js'></script>
 
   </head>
   <body>
@@ -76,33 +65,55 @@
 				<div class="col-md-7 col-sm-12 ftco-animate text-bread d-flex align-items-center">
 					<div class="text">
 				  <h1 class="mb-3 mt-5 bread">Resources</h1>
-				  <h6><a href="Opensource.html">Open Source</a></h6>
+				  <h6><a href="login.html">Internal Source</a></h6>
 			</div>
 		  </div>
 			</div>
 		</div>
 	</section>
+	<section class="ftco-section ftco-no-pt ftco-no-pb">
+		<div class="container">
+				<div class="row d-flex">
 
-</br>
-
-	<section class="ftco-section bg-light">
-			<div class="container">
-					<div class="row justify-content-center ">
+<!-- 增加 開放資源 -->
+                    <div class="row justify-content-center ">
 							<div class="col-md-7 heading-section ftco-animate text-center">
-								<h2 style="color: #0066FF;" >不對外資源 / Internal Source</h2><br/>
-							  <h3 style="color: #0066FF;">Please input the password to enter Internal Source</h3>
-							  <br/>
-							  <br/>
-							  <form method="get" action="Resources.html" name="myform" >
-							
-					<p>Password：<input type="password" id="password" name="password"   value="" /></p>
-					<input type="image" src="images/result.png " onclick="return toopen();">            
-						 </form>			
+								<h2 style="color: #0066FF;" >開放資源 / Open Source</h2><br/>
+							<br/>		
 					 </div>	
-			 </div>
-			</div>
-        </section>	
 
+                    <section id="TMSV">
+						<div class="col-md-12">
+								<div class="blog-entry  d-md-flex">
+									<img src="images/resources/original_face.png" width="170" height="170">
+						<div class="text  pl-md-4">
+						 <div class="meta-wrap">
+							<p class="meta">
+								  <span><i class="icon-calendar mr-2"></i>2020</span>
+								  &nbsp;&nbsp;
+								  <span><i class="icon-folder-o mr-2"></i> Dataset </span>
+							  </p>
+						  </div>
+						  <h4 class="mb-2"><a href="https://drive.google.com/drive/folders/1B-eJs1yYVf0qHrYOWrtxYs3a8inPHm1K?usp=sharing" target="_blank">TMSV (Taiwan Mandarin speech with video)<span><img src="fonts/flaticon/font/link.svg" width="20"></img></span></h4></a>
+						  <p class="opentext">Shang-Yi Chuang & Chen-Chou Lo</p>
+						  <p class="opentext1">Please cite the paper of <a href="https://arxiv.org/abs/2005.11769" target="_blank">LAVSE<span><img src="fonts/flaticon/font/link.svg" width="10"></a> if you find this dataset useful in your research.</p>
+						  <p class="opentext1" style="background-color:	#F5F5F5;">
+							&emsp; @inproceedings{chuang2020lite,<br/>
+								&emsp; &emsp; title={Lite Audio-Visual Speech Enhancement},<br/>
+								&emsp; &emsp; author={Chuang, Shang-Yi and Tsao, Yu and Lo, Chen-Chou and Wang, Hsin-Min},&emsp; &emsp; <br/>
+								&emsp; &emsp; booktitle={Proc. Interspeech 2020}<br/>
+							&emsp; }
+						  </p>
+						</div>
+						</div>
+						</div>
+						</section><!-- END-->
+
+						
+					</div>
+				</div>
+				</div>
+	</section><!-- END-->
 
 
   <!-- 修改 footer -->
@@ -114,28 +125,28 @@
 			  <div class="ftco-footer-widget mb-4 ml-md-4">
 				<h2 class="ftco-heading-2">Usefull Links</h2>
 				<ul class="list-unstyled">
-					<li class="nav-item "><a href="index.html" class="nav-link">News</a></li>
-					<li class="nav-item"><a href="Press.html" class="nav-link">Press</a></li>
-					<li class="nav-item"><a href="Lab-eng.html" class="nav-link">Lab</a></li>
-					<li class="nav-item"><a href="Research-eng.html" class="nav-link">Research</a></li>
-				  </ul>
-				</div>
+				  <li class="nav-item"><a href="index.html" class="nav-link">News</a></li>
+				  <li class="nav-item"><a href="Press.html" class="nav-link">Press</a></li>
+				  <li class="nav-item"><a href="Lab-eng.html" class="nav-link">Lab</a></li>
+				  <li class="nav-item"><a href="Research-eng.html" class="nav-link">Research</a></li>
+				</ul>
 			  </div>
-			  <div class="col-md">
-				 <div class="ftco-footer-widget mb-4">
-				  <h2 class="ftco-heading-2"></h2>
-				  <ul class="list-unstyled">
-					  <li class="nav-item"><a href="p-conference.html" class="nav-link">Publications</a></li>
-					  <li class="nav-item"><a href="Opensource.html" class="nav-link">Resources</a></li>
-					<li class="nav-item"><a href="Honors.html" class="nav-link">Honors</a></li>
-					<li class="nav-item"><a href="Activities.html" class="nav-link">Activities</a></li>
-				  <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+			</div>
+			<div class="col-md">
+			   <div class="ftco-footer-widget mb-4">
+				<h2 class="ftco-heading-2"></h2>
+				<ul class="list-unstyled">
+					<li class="nav-item"><a href="p-conference.html" class="nav-link">Publications</a></li>
+					<li class="nav-item"><a href="Opensource.html" class="nav-link">Resources</a></li>
+				  <li class="nav-item"><a href="Honors.html" class="nav-link">Honors</a></li>
+				  <li class="nav-item"><a href="Activities.html" class="nav-link">Activities</a></li>
+				<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 				</ul>
 			  </div>
 			</div>
 			<div class="col-md">
 			  <div class="ftco-footer-widget mb-4">
-				  <h2 class="ftco-heading-2">Have Questions?</h2>
+				  <h2 class="ftco-heading-2">Have a Questions?</h2>
 				  <div class="block-23 mb-3">
 					<ul>
 							<li><span class="icon icon-map-marker"></span><span class="text">3F., No.128, Sec. 2, Academia Rd., Nangang Dist., Taipei City 115, Taiwan</span></li>
@@ -149,6 +160,7 @@
 		  </div>
 		  <div class="row">
 			<div class="col-md-12 text-center">
+				
 				<p>Copyright &copy; Bio-ASP Lab 2019 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 					<br/>Template by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
 	<div align='center'><a href='https://www.hit-counts.com/'><img src='http://www.hit-counts.com/counter.php?t=MTQ0MTQyMA==' border='0' alt='logo design'></a><BR><a href='https://www.glowgraphics.co.uk/'>logo design</a></div>
