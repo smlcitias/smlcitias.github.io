@@ -24,71 +24,82 @@
     
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
+	
   </head>
   <body>
     
-	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container">
-	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
-
-		  <img src="images/logo.jpg" width="100"/>
-		  
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav ml-auto">
-				<li class="nav-item "><a href="index.html" class="nav-link">News</a></li>
-				<li class="nav-item"><a href="Press.html" class="nav-link">Press</a></li>
-				<li class="nav-item"><a href="Lab-eng.html" class="nav-link">Lab</a></li>
-	        	<li class="nav-item"><a href="Research-eng.html" class="nav-link">Research</a></li>
-	        	<li class="nav-item active"><a href="p-conference.html" class="nav-link">Publications</a></li>
-				<li class="nav-item"><a href="Opensource.html" class="nav-link">Resources</a></li>
-				<li class="nav-item"><a href="Honors.html" class="nav-link">Honors</a></li>
-				<li class="nav-item"><a href="Activities.html" class="nav-link">Activities</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
-    <!-- END nav -->
-
-
-	<section class="hero-wrap hero-wrap-2 d-flex" style="background-image: url(images/1.jpg);">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row d-flex align-items-center">
-				<div class="col-md-7 col-sm-12 ftco-animate text-bread d-flex align-items-center">
-					<div class="text">
-				  <h1 class="mb-3 mt-5 bread">Publications</h1>
-			</div>
-		  </div>
+    <!-- header-start -->
+	<header class="header_area">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+					</button>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav ml-auto">
+							<li class="nav-item"><a class="nav-link" href="index.html">News</a></li> 
+							<li class="nav-item"><a class="nav-link"  href="Press.html">Press</a></li>
+                            <li class="nav-item "><a class="nav-link" href="Lab-eng.html">Lab</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Research-eng.html">Research</a></li>
+							<li class="nav-item submenu dropdown">
+								<a href="p-conference.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications</a>
+								<ul class="dropdown-menu">
+									<li class="nav-item " ><a class="nav-link2"  href="p-book.html">Books</a>
+									<li class="nav-item active"><a class="nav-link2" href="p-conference.html">Conference</a>
+									<li class="nav-item"><a class="nav-link2" href="p-journal.html">Journal</a>
+									<li class="nav-item"><a class="nav-link2" href="p-tutorials.html">Tutorials</a>
+									<li class="nav-item"><a class="nav-link2" href="p-presentations.html">Presentations</a>
+									<li class="nav-item"><a class="nav-link2" href="p-reports.html">Reports</a></li>
+								</ul>
+							</li> 
+							<li class="nav-item submenu dropdown">
+								<a href="Opensource.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources</a>
+								<ul class="dropdown-menu">
+									<li class="nav-item" ><a class="nav-link2" href="login.html">Internal Source</a></li>
+									<li class="nav-item" ><a class="nav-link2" href="Opensource.html#SE">Speech Enhancement Tools</a></li>
+                                    <li class="nav-item" ><a class="nav-link2" href="Opensource.html#BSP">Biomedical Signal Processing</a></li>
+                                    <li class="nav-item" ><a class="nav-link2" href="Opensource.html#ET">Evaluation Tool</a></li>
+                                    <li class="nav-item" ><a class="nav-link2" href="Opensource.html#Dataset">Dataset</a></li>
+								</ul>
+							</li> 
+							<li class="nav-item" ><a class="nav-link"href="Honors.html" >Honors </a></li>
+                            <li class="nav-item" ><a class="nav-link" href="Activities.html">Activitist</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+						</ul>
+					</div> 
+				</div>
+			</nav>
+		</div>
+	</header>
+	  <!-- header-end -->
+	  
+	<!-- slider_area_start -->
+	<div class="slider_area">
+		<div class="single_slider d-flex align-items-center justify-content-center slider_bg_1 overlay2">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12">
+						<div class="slider_text text-center">
+							<h3>Publications - Conference&nbsp;<img src="images/logo4.png" width="80"></h3>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-	</section>
-	
+	</div>
+	<!-- slider_area_end -->
 
  <!-- 增加 Conference Paper -->
-		<div id="colorlib-main">
 			<section class="ftco-section ftco-no-pt ftco-no-pb">
 	    	<div class="container" >
 	    		<div class="row d-flex">
-						<div class="p-list">
-								<ul>
-								
-								<li><a href="p-book.html">Books</a></li>
-								<li class="nav-item active"><a href="p-conference.html">Conference</a></li>
-								<li><a href="p-journal.html">Journal</a></li>
-								<li><a href="p-presentations.html">Presentations</a></li>
-								<li><a href="p-reports.html">Reports</a></li>
-  							    </ul>
-								</div>
-								<br/>
-								<br/>
-								<br/>
-								<br/>
+
  <!-- 增加 2020 Conference Paper -->									
-<h3 style="color: #0066FF" >&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;- 2020 -</h3><br/>								
+<h3 style="color: #0066FF" >- 2020 -</h3><br/>								
 
                     
 						
@@ -237,7 +248,7 @@
 						</div>
 
  <!-- 增加 2019 Conference Paper -->
- <h3 style="color: #0066FF" >&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;- 2019 -</h3><br/>							
+ <h3 style="color: #0066FF" >- 2019 -</h3><br/>							
  
                         <div class="col-md-12">
 								<div class="blog-entry  d-md-flex">
@@ -426,7 +437,7 @@
 								  <span><i class="icon-folder-o mr-2"></i>Conference Paper</span>
 							  </p>
 						  </div>
-						  <h4 class="mb-2"><a href="paper/conference/lo2019mosnet.pdf" target="_blank">MOSNet: Deep Learning based Objective Assessment for Voice Conversion</a></h4>
+						  <h4 class="mb-2"><a href="paper/conference/lo2019mosnet.pdf" target="_blank">MOSNet: Deep Learning-based Objective Assessment for Voice Conversion</a></h4>
 						  <div class="meta-wrap">
 						  </div>
 						  <p class="mb-4">C.-C. Lo, S.-w. Fu, W. C. Huang, X. Wang, J. Yamagishi, Y. Tsao and H.-M. Wang
@@ -927,7 +938,7 @@
 					</div>
 
  <!-- 增加 2017 Conference Paper -->	
- <h3 style="color: #0066FF" >&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;- 2017 -</h3><br/>	
+ <h3 style="color: #0066FF" >- 2017 -</h3><br/>	
 					<div class="col-md-12">
 						<div class="blog-entry  d-md-flex">
 							<img src="images/conference/wu2017locally.png" width="25%" height="25%">
@@ -1215,7 +1226,7 @@
 				</div>
 
  <!-- 增加 2016 Conference Paper -->
- <h3 style="color: #0066FF" >&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;- 2016 -</h3><br/>		
+ <h3 style="color: #0066FF" >- 2016 -</h3><br/>		
 				<div class="col-md-12">
 					<div class="blog-entry  d-md-flex">
 						<img src="images/conference/coming_soon.jpg" width="25%" height="25%">
@@ -1591,7 +1602,7 @@
 			</div>
 
  <!-- 增加 2015 Conference Paper -->
- <h3 style="color: #0066FF" >&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;- 2015 -</h3><br/>		
+ <h3 style="color: #0066FF" >- 2015 -</h3><br/>		
 			<div class="col-md-12">
 				<div class="blog-entry  d-md-flex">
 					<img src="images/conference/chen2015multimodal.png" width="25%" height="25%">
@@ -1791,7 +1802,7 @@
 		</div>
 
  <!-- 增加 2014 Conference Paper -->	
- <h3 style="color: #0066FF" >&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;- 2014 -</h3><br/>	
+ <h3 style="color: #0066FF" >- 2014 -</h3><br/>	
 		<div class="col-md-12">
 			<div class="blog-entry  d-md-flex">
 				<img src="images/conference/lee2014speaker.png" width="25%" height="25%">
@@ -2079,7 +2090,7 @@
 	</div>
 
  <!-- 增加 2013 Conference Paper -->		
- <h3 style="color: #0066FF" >&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;- 2013 -</h3><br/>	
+ <h3 style="color: #0066FF" >- 2013 -</h3><br/>	
 								<div class="col-md-12">
 									<div class="blog-entry  d-md-flex">
 										<img src="images/conference/jing2013sparse.png" width="25%" height="25%">
@@ -2345,7 +2356,7 @@
 							</div>
 
  <!-- 增加 2012 Conference Paper -->
- <h3 style="color: #0066FF" >&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;- 2012 -</h3><br/>									
+ <h3 style="color: #0066FF" >- 2012 -</h3><br/>									
 							<div class="col-md-12">
 								<div class="blog-entry  d-md-flex">
 									<img src="images/conference/tsao2012linear.png" width="25%" height="25%">
@@ -2478,7 +2489,7 @@
 						</div>
 
  <!-- 增加 2011 Conference Paper -->
- <h3 style="color: #0066FF" >&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;- 2011 -</h3><br/>								
+ <h3 style="color: #0066FF" >- 2011 -</h3><br/>								
 						<div class="col-md-12">
 							<div class="blog-entry  d-md-flex">
 								<img src="images/conference/tsao2011sampling.png" width="25%" height="25%">
@@ -2568,7 +2579,7 @@
 					</div>
 
  <!-- 增加 2010 Conference Paper -->	
- <h3 style="color: #0066FF" >&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;- 2010 -</h3><br/>	
+ <h3 style="color: #0066FF" >- 2010 -</h3><br/>	
 					<div class="col-md-12">
 						<div class="blog-entry  d-md-flex">
 							<img src="images/conference/tsao2010acoustic.png" width="25%" height="25%">
@@ -2636,7 +2647,7 @@
 				</div>
 
  <!-- 增加 2009 Conference Paper -->
- <h3 style="color: #0066FF" >&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;- 2009 -</h3><br/>						
+ <h3 style="color: #0066FF" >- 2009 -</h3><br/>						
 				<div class="col-md-12">
 					<div class="blog-entry  d-md-flex">
 						<img src="images/conference/tsao2009ensemble.png" width="25%" height="25%">
@@ -2726,7 +2737,7 @@
 			</div>
 
  <!-- 增加 2008 Conference Paper -->	
- <h3 style="color: #0066FF" >&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;- 2008 -</h3><br/>	
+ <h3 style="color: #0066FF" >- 2008 -</h3><br/>	
 			<div class="col-md-12">
 				<div class="blog-entry  d-md-flex">
 					<img src="images/conference/tsao2008improving.png" width="25%" height="25%">
@@ -2772,7 +2783,7 @@
 		</div>
 
  <!-- 增加 2007 Conference Paper -->	
- <h3 style="color: #0066FF" >&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;- 2007 -</h3><br/>	
+ <h3 style="color: #0066FF" >- 2007 -</h3><br/>	
 		<div class="col-md-12">
 			<div class="blog-entry  d-md-flex">
 				<img src="images/conference/bromberg2007detection.png" width="25%" height="25%">
@@ -2840,7 +2851,7 @@
 	</div>
 
  <!-- 增加 2006 Conference Paper -->	
- <h3 style="color: #0066FF" >&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;- 2006 -</h3><br/>	
+ <h3 style="color: #0066FF" >- 2006 -</h3><br/>	
 								<div class="col-md-12">
 									<div class="blog-entry  d-md-flex">
 										<img src="images/conference/ma2006study.png" width="25%" height="25%">
@@ -2886,7 +2897,7 @@
 							</div>
 
  <!-- 增加 2005 Conference Paper -->
- <h3 style="color: #0066FF" >&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;- 2005 -</h3><br/>									
+ <h3 style="color: #0066FF" >- 2005 -</h3><br/>									
 							<div class="col-md-12">
 								<div class="blog-entry  d-md-flex">
 									<img src="images/conference/tsao2005study.png" width="25%" height="25%">
@@ -2933,7 +2944,7 @@
 
  <!-- 增加 2001 Conference Paper -->
  
- <h3 style="color: #0066FF" >&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;- 2001 -</h3><br/>		
+ <h3 style="color: #0066FF" >- 2001 -</h3><br/>		
 						<div class="col-md-12">
 							<div class="blog-entry  d-md-flex">
 								<img src="images/conference/tsao2001segmental.png" width="170">
@@ -2986,7 +2997,7 @@
 					 <div class="ftco-footer-widget mb-4">
 					  <h2 class="ftco-heading-2"></h2>
 					  <ul class="list-unstyled">
-						  <li class="nav-item"><a href="Pulications.html" class="nav-link">Publications</a></li>
+						  <li class="nav-item"><a href="p-conference.html" class="nav-link">Publications</a></li>
 						  <li class="nav-item"><a href="Opensource.html" class="nav-link">Resources</a></li>
 						<li class="nav-item"><a href="Honors.html" class="nav-link">Honors</a></li>
 						<li class="nav-item"><a href="Activities.html" class="nav-link">Activities</a></li>
@@ -3019,7 +3030,6 @@
 		  </footer>
 
 <!-- loader -->
-<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
 <script src="js/jquery.min.js"></script>

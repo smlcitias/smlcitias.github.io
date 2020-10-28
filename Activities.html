@@ -25,47 +25,76 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+
   </head>
   <body>
-    
-	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container">
-	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
 
-		  <img src="images/logo.jpg" width="100"/>
-		  
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a href="index.html" class="nav-link">News</a></li>
-				<li class="nav-item"><a href="Press.html" class="nav-link">Press</a></li>
-				<li class="nav-item"><a href="Lab-eng.html" class="nav-link">Lab</a></li>
-	      <li class="nav-item"><a href="Research-eng.html" class="nav-link">Research</a></li>
-	      <li class="nav-item"><a href="p-conference.html" class="nav-link">Publications</a></li>
-				<li class="nav-item"><a href="Opensource.html" class="nav-link">Resources</a></li>
-				<li class="nav-item"><a href="Honors.html" class="nav-link">Honors</a></li>
-				<li class="nav-item active"><a href="Activities.html" class="nav-link">Activities</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
-    <!-- END nav -->
-
-    <section class="hero-wrap hero-wrap-2 d-flex" style="background-image: url(images/1.jpg);">
-    	<div class="overlay"></div>
-    	<div class="container">
-    		<div class="row d-flex align-items-center">
-    			<div class="col-md-7 col-sm-12 ftco-animate text-bread d-flex align-items-center">
-    				<div class="text">
-				  <h1 class="mb-3 mt-5 bread">Activities</h1>
-            </div>
+    <!-- header-start -->
+    <header class="header_area">
+      <div class="main_menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      Menu
+            </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+              <ul class="nav navbar-nav menu_nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">News</a></li> 
+                <li class="nav-item"><a class="nav-link"  href="Press.html">Press</a></li>
+                <li class="nav-item "><a class="nav-link" href="Lab-eng.html">Lab</a></li>
+                <li class="nav-item"><a class="nav-link" href="Research-eng.html">Research</a></li>
+                <li class="nav-item submenu dropdown">
+                  <a href="p-conference.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications</a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item" ><a class="nav-link2"  href="p-book.html">Books</a>
+                    <li class="nav-item"><a class="nav-link2" href="p-conference.html">Conference</a>
+                    <li class="nav-item"><a class="nav-link2" href="p-journal.html">Journal</a>
+                    <li class="nav-item"><a class="nav-link2" href="p-tutorials.html">Tutorials</a>
+                    <li class="nav-item"><a class="nav-link2" href="p-presentations.html">Presentations</a>
+                    <li class="nav-item"><a class="nav-link2" href="p-reports.html">Reports</a></li>
+                  </ul>
+                </li> 
+                <li class="nav-item submenu dropdown">
+                  <a href="Opensource.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources</a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item" ><a class="nav-link2" href="login.html">Internal Source</a></li>
+                    <li class="nav-item" ><a class="nav-link2" href="Opensource.html#SE">Speech Enhancement Tools</a></li>
+                    <li class="nav-item" ><a class="nav-link2" href="Opensource.html#BSP">Biomedical Signal Processing</a></li>
+                    <li class="nav-item" ><a class="nav-link2" href="Opensource.html#ET">Evaluation Tool</a></li>
+                    <li class="nav-item" ><a class="nav-link2" href="Opensource.html#Dataset">Dataset</a></li>
+                  </ul>
+                </li> 
+                <li class="nav-item" ><a class="nav-link"href="Honors.html" >Honors </a></li>
+                <li class="nav-item active" ><a class="nav-link" href="Activities.html">Activitist</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+              </ul>
+            </div> 
           </div>
-    		</div>
-    	</div>
-    </section>
+        </nav>
+      </div>
+    </header>
+      <!-- header-end -->    
 
+
+  <!-- slider_area_start -->
+  <div class="slider_area">
+      <div class="single_slider d-flex align-items-center justify-content-center slider_bg_1 overlay2">
+          <div class="container">
+              <div class="row">
+                  <div class="col-xl-12">
+                      <div class="slider_text text-center">
+                       <h3>Activities&nbsp;&nbsp;<img src="images/logo4.png" width="80"></h3>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- slider_area_end -->
+
+  <section class="ftco-section bg-light">
     <div class="popular_destination_area">
         <div class="container">
             <div class="row">
@@ -77,7 +106,7 @@
                             <img src="https://lh3.googleusercontent.com/ey-IXGnH7OQKdFOykZe_atapoWPHEWdPZbIk5Awx-jWY-7RWQ3atRtPv8J8DBhd_2XZ2jMPgDRwOrDEJNwRbqbfP9gc7xHlwxMIMD3-9F3bLCYa_jfkvgHNM2tX9iscEtrrNtFpiVw=w1800" width="300" height="243" alt="">
                         </div>
                         <div class="content">
-                          <p class="d-flex align-items-center"><a href="2019openhouse.html">2019  Open House </a> </p>
+                          <p class="d-flex align-items-center"><a href="2019openhouse.html" style="color: darkblue;">2019  Open House </a> </p>
                       </div>
                     </div>
 				</div>
@@ -86,10 +115,10 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_destination">
                         <div class="thumb">
-                            <img src="https://lh3.googleusercontent.com/o4ey_Q2RRlXMq9JYrRCMXRTeTrvXIWKoe7l0HsVkcZUgeWt2NqQeW1pCRK_irMGNJ9bbNSgpnY6K7kh9zjy-Ctc0snrm0AhhWd1BBcrvBH5HgpWjzjGYtQPDPuHAVNIt4_KwVzn7-g=w1800" width="300" alt="">
+                            <img src="https://lh3.googleusercontent.com/o4ey_Q2RRlXMq9JYrRCMXRTeTrvXIWKoe7l0HsVkcZUgeWt2NqQeW1pCRK_irMGNJ9bbNSgpnY6K7kh9zjy-Ctc0snrm0AhhWd1BBcrvBH5HgpWjzjGYtQPDPuHAVNIt4_KwVzn7-g=w1800" width="300" height="243" alt="">
                         </div>
                         <div class="content">
-                          <p class="d-flex align-items-center"><a href="2019year-end partyphotos.html">2019 Year-ends Party</a> </p>
+                          <p class="d-flex align-items-center" ><a href="2019year-end partyphotos.html" style="color: darkblue;">2019 Year-ends Party</a> </p>
                       </div>
                     </div>
 				</div>
@@ -98,10 +127,10 @@
         <div class="col-lg-4 col-md-6">
           <div class="single_destination">
               <div class="thumb">
-                  <img src="https://lh3.googleusercontent.com/IJ2o_AuJLBnS5US3IqiFyTzkx1HSK6DNbxJYrWcnizhNRDtXSLkBcGF8DxQ9FBh6DamJbEaODpVPHR3zXl8FhhLJqJG5znY2IKrwPJSn0dgq3NFbTuPkk_fV6VRVw8oiLfrUDpLKkw=w1800" width="300" alt="">
+                  <img src="https://lh3.googleusercontent.com/IJ2o_AuJLBnS5US3IqiFyTzkx1HSK6DNbxJYrWcnizhNRDtXSLkBcGF8DxQ9FBh6DamJbEaODpVPHR3zXl8FhhLJqJG5znY2IKrwPJSn0dgq3NFbTuPkk_fV6VRVw8oiLfrUDpLKkw=w1800" width="300"  height="243" alt="">
               </div>
               <div class="content">
-                <p class="d-flex align-items-center"><a href="20200304.html">2020.03.04 國軒生日</a> </p>
+                <p class="d-flex align-items-center"><a href="20200304.html" style="color: darkblue;">2020.03.04 國軒生日</a> </p>
             </div>
           </div>
 </div>
@@ -110,10 +139,10 @@
 				<div class="col-lg-4 col-md-6">
                     <div class="single_destination">
                         <div class="thumb">
-                            <img src="images/2019AMAI.jpg" width="300" alt="">
+                            <img src="images/2019AMAI.jpg" width="300" height="243" alt="">
                         </div>
                         <div class="content">
-                          <p class="d-flex align-items-center"><a href="https://bio-asp-lab.github.io/AMAI/" target="_blank">2019.08.29 AMAI Workshop</a> </p>
+                          <p class="d-flex align-items-center"><a href="https://bio-asp-lab.github.io/AMAI/" target="_blank" style="color: darkblue;">2019 AMAI Workshop</a> </p>
                       </div>
                     </div>
 				</div>
@@ -122,7 +151,7 @@
 				<div class="col-lg-4 col-md-6">
                     <div class="single_destination">
                         <div class="thumb">
-                            <img src="images/project-6.jpg" width="300" alt="">
+                            <img src="images/project-6.jpg" width="300"  height="243" alt="">
                         </div>
                     </div>
 				</div>
@@ -136,6 +165,7 @@
             </div><!-- popular_destination_area_end  -->
         </div>
     </div>
+  </section>
     <!-- popular_destination_area_end  -->
 	
 
@@ -160,7 +190,7 @@
 					 <div class="ftco-footer-widget mb-4">
 					  <h2 class="ftco-heading-2"></h2>
 					  <ul class="list-unstyled">
-						  <li class="nav-item"><a href="Pulications.html" class="nav-link">Publications</a></li>
+						  <li class="nav-item"><a href="p-conference.html" class="nav-link">Publications</a></li>
 						  <li class="nav-item"><a href="Opensource.html" class="nav-link">Resources</a></li>
 						<li class="nav-item"><a href="Honors.html" class="nav-link">Honors</a></li>
 						<li class="nav-item"><a href="Activities.html" class="nav-link">Activities</a></li>
@@ -193,7 +223,6 @@
 		  </footer>
 
   <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
   <script src="js/jquery.min.js"></script>
