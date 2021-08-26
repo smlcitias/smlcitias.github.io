@@ -9563,6 +9563,37 @@ section.resume-section {
       float:left;
       }
 
+.f0 img{
+  width: 350px;
+  height: 290px;
+  margin:10px 25px;
+  display: block;
+  float: left; 
+}     
+
+.f1 img{
+  width: 350px;
+  height: 400px;
+  margin:10px 25px;
+  display: block;
+  float: left; 
+}  
+
+.f2 img{
+  width: 220px;
+  margin:25px 15px;
+  display: block;
+  float: left; 
+} 
+
+.f3 img{
+  width: 80px;
+  margin:0 20px;
+  display: block;
+  float: right; 
+} 
+
+
      /* Galley Area css
 ============================================================================================ */
 .home_blog_inner {
