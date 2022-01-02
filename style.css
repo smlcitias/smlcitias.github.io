@@ -4953,22 +4953,8 @@ body,
 
 .advisor-area .single-item {
   margin-bottom: 20px;
-  
 
 }
-
-.advisor-area .item .thumb::after {
-  position: absolute;
-  left: 0;
-  bottom: 6px;
-  content: "";
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  
-}
-
 
 .advisor-area .item .thumb img {
   background: #b4d8f5;
@@ -4983,8 +4969,6 @@ body,
 .advisor-area .item .info {
   padding: 30px;
   padding-top: 20px;
-
-
 }
 
 .advisor-area .item .info h4,
@@ -4992,6 +4976,16 @@ body,
   margin-bottom: 5px;
   color: rgb(8, 99, 246);
   font-weight:bold;
+}
+
+.advisor-area .item .info a {
+  display: inline-block;
+  z-index:-1;
+}
+
+.advisor-area .item .info a img {
+  display: inline-block;
+  z-index:999;
 }
 
 .advisor-area .item .info span {
@@ -5024,11 +5018,6 @@ body,
   opacity: 0;
 }
 
-.advisor-area .item:hover .thumb ul {
-  transform: translate(0, -10px);
-  opacity: 1;
-}
-
 .advisor-area .item .thumb ul li {
   display: inline-block;
   margin: 0 5px;
@@ -5044,51 +5033,6 @@ body,
   font-size: 14px;
 }
 
-.advisor-area .item .thumb ul li.facebook a {
-  background: #3b5998 none repeat scroll 0 0;
-}
-
-.advisor-area .item .thumb ul li.twitter a {
-  background: #1da1f2 none repeat scroll 0 0;
-}
-
-.advisor-area .item .thumb ul li.pinterest a {
-  background: #bd081c none repeat scroll 0 0;
-}
-
-.advisor-area .item .thumb ul li.g-plus a {
-  background: #db4437 none repeat scroll 0 0;
-}
-
-.advisor-area .item .thumb ul li.linkedin a {
-  background: #0077b5 none repeat scroll 0 0;
-}
-
-.advisor-area .advisor-carousel.owl-carousel .owl-dots {
-  margin-top: 30px;
-  margin-bottom: -15px;
-}
-
-.advisor-area .advisor-carousel.owl-carousel .owl-dots .owl-dot span {
-  border: 2px solid #dddddd;
-  background: no-repeat;
-  height: 20px;
-  width: 20px;
-  position: relative;
-  z-index: 1;
-}
-
-.advisor-area .advisor-carousel.owl-carousel .owl-dots .owl-dot.active span::after {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  content: "";
-  height: 5px;
-  width: 5px;
-  background: #FF1949;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-}
 
 
 /* ============================================================== 
