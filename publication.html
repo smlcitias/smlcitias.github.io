@@ -49,6 +49,45 @@
         });
     </script>
 
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const archiveList = document.querySelector("#archives-list");
+            const toggleButton = document.querySelector("#toggle-button"); // 確保選中的是 Archives 的按鈕
+            const items = archiveList.querySelectorAll("li");
+
+            // 定義最近 5 年的臨界值
+            const currentYear = new Date().getFullYear();
+            const thresholdYear = currentYear - 5;
+            const hiddenItems = [];
+
+            items.forEach((item) => {
+                const year = parseInt(item.textContent.trim());
+                if (year <= thresholdYear) {
+                    hiddenItems.push(item);
+                    item.style.display = "none"; // 初始隱藏超過 5 年前的項目
+                }
+            });
+
+            // 設置按鈕點擊事件
+            toggleButton.addEventListener("click", () => {
+                const isHidden = hiddenItems[0].style.display === "none";
+
+                if (isHidden) {
+                    // 展開隱藏年份
+                    hiddenItems.forEach((item) => {
+                        item.style.display = "block";
+                    });
+                    toggleButton.textContent = "-"; // 展開時改為 "-"
+                } else {
+                    // 收合隱藏年份
+                    hiddenItems.forEach((item) => {
+                        item.style.display = "none";
+                    });
+                    toggleButton.textContent = "+"; // 收合時恢復為 "+"
+                }
+            });
+        });
+    </script>
 
 
 </head>
@@ -4272,7 +4311,7 @@
                                                 IEEE International Conference on Advanced Manufacturing, 2018
                                             </p>
                                             <p><i class="fas fa-award" style="margin-right:6px ; "></i>
-                                                Best Paper Award (獲推薦轉投SCI期刊, 擴充研究�?改中)
+                                                Best Paper Award (獲推薦轉投SCI期刊, 擴充研究�?改中)
                                             </p>
                                         </div>
                                     </div>
@@ -4312,7 +4351,7 @@
                                             </p>
                                             <p><i class="fas fa-award" style="margin-right:6px ; "></i>
                                                 Makalot Industry-Academic Collaboration Award (獲推薦轉投EI期刊,
-                                                擴充研究�?改中)
+                                                擴充研究�?改中)
                                             </p>
                                         </div>
                                     </div>
@@ -8108,10 +8147,12 @@
 
                             <div class="sidebar-item archives">
                                 <div class="title">
-                                    <h4>Archives</h4>
+                                    <h4>Archives <button id="toggle-button"
+                                            style="cursor: pointer; font-weight: bold; margin-left: 10px; background-color: transparent; border: none; color: #007BFF; font-size: 16px;">+</button>
+                                    </h4>
                                 </div>
                                 <div class="sidebar-info col-lg-4 col-md-3">
-                                    <ul>
+                                    <ul id="archives-list">
                                         <li><a href="#c2024">2024</a></li>
                                         <li><a href="#c2023">2023</a></li>
                                         <li><a href="#c2022">2022</a></li>
@@ -8190,8 +8231,7 @@
                                 Dist., Taipei City 115, Taiwan
                             </p>
                             <p>
-                                <i class="fas fa-map-marker-alt"></i>&nbsp; 115
-                                台北市南�?區研究院路二�??128�?<br />�?�?研究院資訊�?�技創新研究�?心三�?
+                                <i class="fas fa-map-marker-alt"></i>&nbsp; 115 台北市南港區研究院路二段128號<br />中央研究院資訊科技創新研究中心三樓
                             </p>
                             <p>
                                 <i class="fas fa-phone-volume"></i>&nbsp; 886-2-2787-2390
